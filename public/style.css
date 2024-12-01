@@ -1,14 +1,8 @@
 body{
   background-image: url(/BG2.jpg);
-  /* background-size:     cover;                      
-  background-repeat:   no-repeat;
-  background-position: center center;   */
 }
 
-/* h1{
-  font-family: cursive ;
-  font-size: small;
-} */
+
 .card{
   /* border: none; */
   color: whitesmoke;
@@ -50,10 +44,6 @@ body{
 }
 
 
-/* .carousel-inner > .item > img {
-  width:640px;
-  height:360px;
-} */
 
 .hero-image{
   max-height: 60vh;
@@ -65,10 +55,7 @@ body{
   text-overflow: ellipsis;
 }
 
-/* .carousel-caption{
-  overflow: hidden;
-  text-overflow: ellipsis;
-} */
+
 
 .f-info-links a { 
   text-decoration: none;

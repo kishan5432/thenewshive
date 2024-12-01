@@ -5,7 +5,7 @@ const path = require ('path');
 
 
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "node_modules/bootstrap/dist/css")));
