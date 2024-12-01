@@ -1,0 +1,123 @@
+body{
+  background-image: url(/BG2.jpg);
+  /* background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;   */
+}
+
+/* h1{
+  font-family: cursive ;
+  font-size: small;
+} */
+.card{
+  /* border: none; */
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.706);
+  height: 25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 5px rgb(73, 72, 72);
+  transform:scale(1.05);
+}
+
+.card-title{
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.hero-img{
+  object-fit: contain;
+}
+
+
+#carouselExampleCaptions{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  max-height: 60vh;
+  
+}
+
+ .carousel-inner{
+  max-height: 60vh;
+}
+
+.hero-img{
+  object-fit: contain;
+}
+
+
+/* .carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+} */
+
+.hero-image{
+  max-height: 60vh;
+}
+
+.carousel-inner{
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* .carousel-caption{
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.f-info-links a { 
+  text-decoration: none;
+  color:aliceblue
+}
+
+.f-info-brand{
+  color:antiquewhite
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials, .f-info-brand{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.f-info{
+  text-align: center;
+  height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000103b8;
+  align-items: space-evenly;
+}
+
+.heading{
+  background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  /* background-color: rgba(6, 151, 74, 0.552); */
+  color:azure;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  border: 5px solid rgba(0, 0, 0, 0.792);
+}
+
+.search{
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.7);
+}

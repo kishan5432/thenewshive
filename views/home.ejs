@@ -1,0 +1,61 @@
+<%- include("includes/header.ejs") %>
+<body>
+  <div>
+    <%- include("includes/navbar.ejs") %>
+  </div>
+ <div class="mb-3">
+  <%- include("includes/hero.ejs") %>
+</div>
+ 
+  
+  
+  <div class="my-2 container container-fluid ">
+    <div class="w-100 my-2 d-flex justify-content-center heading">
+      <h1 class="display-3">Latest Articles</h1>
+    </div>
+  <div class="row justify-content-center  row-cols-lg-3 row-cols-md-2 row-cols-sm-1  ">
+
+    
+  
+        <% for(content of data){ %>
+
+          
+
+         
+          
+        <div class="container">
+          <a href="<%= content.link %>" style="text-decoration: none;">
+          <div class="card mx-2 my-3">
+            
+            <img src="<%= content.image_url %>" class="w-90 card-img-top " alt="headline image" style="height: 14rem;">
+            <div class="card-body ">
+              <h5 class="card-title"><%= content.title %></h5>
+              
+                <p class="card-text"><%= content.description %></p>
+             
+              
+            </div>
+          
+          </div>
+        </a>
+
+        </div>
+      
+       
+        <% } %>
+  
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="/next" class="btn btn-primary btn-lg my-3 ">Next</a>
+        </div>
+        
+      </div>
+      
+ 
+
+     <%- include("includes/footer.ejs") %>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
+
